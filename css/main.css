@@ -1,0 +1,124 @@
+body {
+    background: #ddd;
+    margin: 0 auto;
+    max-width: 50rem;
+
+    background-image: url("../img/heading.jpg");
+}
+h2 {
+    font-style: italic;
+    font-size: 0.9em;
+}
+header {
+    width: 100%;
+    background-color: white;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+
+.logo {
+
+    float:left;
+}
+header p {
+    float:left;
+    font-family: sans-serif;
+}
+nav {
+
+    float:right;
+    list-style:none;
+    display: block;
+
+}
+
+nav ul {
+    float:left;
+    padding-left: 1em;
+    font-family: sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right:0;
+    top:30%;
+    transform: translateY(-50%);
+    font-size: 2.5rem;
+    font-family: sans-serif;
+}
+
+form {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right:0;
+    top:60%;
+    transform: translateY(-40%);
+    font-size: 2.5rem;
+    font-family: sans-serif;
+
+}
+
+input {
+
+    width: 60%;
+    height: 3em;
+    border-style: none;
+}
+
+.text_centro {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right:0;
+    top:80%;
+    transform: translateY(-40%);
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    background-color: white;
+    padding: 3em;
+    text-align: center;
+
+}
+
+.los4 {
+    padding-top: 2em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:105%;
+    transform: translateY(-40%);
+    font-family: sans-serif;
+    background-color: white;
+    float: left;
+
+}
+
+.price {
+
+    margin-left: 6em;
+    float: left;
+    text-align: center;
+}
+
+.food {
+    margin-left: 6em;
+    float: left;
+    text-align: center;
+}
+.gastro {
+    margin-left: 6em;
+    float: left;
+    text-align: center;
+}
+.book {
+    margin-left: 6em;
+    float: left;
+    text-align: center;
+}
